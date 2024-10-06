@@ -1,0 +1,65 @@
+
+
+.navbar-inner {
+  background:transparent;
+}
+
+.cc-selector input{
+  position:absolute;
+    z-index:999;
+}
+
+
+.Car{background-image:url(./assets/car.webp) ;}
+.Bike{background-image:url(./assets/bike.webp) ;
+background-position: center;
+}
+
+
+.Rose{background-image:url(./assets/rose.webp);}
+.Lily{background-image:url(./assets/lily.webp);}
+
+.WTF{background-image:url(./assets/wtf.webp);}
+.LOL{background-image:url(./assets/lol.webp);}
+
+.Summer{background-image:url(./assets/Summer.webp);}
+.Winter{background-image:url(./assets/Winter.webp);}
+
+.Soft{background-image:url(./assets/softdrink.webp);}
+.Hard{background-image:url(./assets/harddrink.webp);}
+
+.Giraffe{background-image:url(./assets/giraff.webp);}
+.Rabbit{background-image:url(./assets/rabbit.webp);}
+
+.Hit{background-image:url(./assets/hitaclub.webp);}
+.Movie{background-image:url(./assets/moviewithfriends.webp);}
+
+.Tea{background-image:url(./assets/tea.webp);}
+.Coffee{background-image:url(./assets/coffee.webp);}
+
+
+.cc-selector-2 input:active +.drinkcard-cc, .cc-selector input:active +.drinkcard-cc{opacity: .9;}
+.cc-selector-2 input:checked +.drinkcard-cc, .cc-selector input:checked +.drinkcard-cc{
+  -webkit-filter: none;
+     -moz-filter: none;
+          filter: none;
+}
+.drinkcard-cc{
+  cursor:pointer;
+  background-size:contain;
+  background-repeat:no-repeat;
+  display:inline-block;
+  width:100px;height:70px;
+  -webkit-transition: all 100ms ease-in;
+     -moz-transition: all 100ms ease-in;
+          transition: all 100ms ease-in;
+  -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+     -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+          filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+.drinkcard-cc:hover{
+  -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+     -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+          filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
