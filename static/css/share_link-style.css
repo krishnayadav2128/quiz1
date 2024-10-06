@@ -1,0 +1,27 @@
+.box{
+    border: 1px solid black;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: center;
+    color: rgba(29, 47, 134, 1);
+    width: 88%;
+    height: 56px;
+    background-color: #65ecd1;
+    padding: 4px;
+}
+#links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+    margin: auto;
+}
+.link_images{
+    margin-top: 5px;
+    width: 22px;
+    height: 22px;
+}
+#copy_link_img{
+    border-radius: 9px;
+    width: 20px;
+    height: 20px;
+}
